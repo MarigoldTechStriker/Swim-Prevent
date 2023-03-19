@@ -69,7 +69,7 @@
             "slinky",
         };
 
-        // cheat tables (as I call them) are shitty detections, but it doesn't hurt to have them
+        // cheat tables (as I call them) are bad detections, but it doesn't hurt to have them
         public static string checkMD5(string md5) {
             return md5 switch {
                 "4ca3c23042c6e7baa2171fe2c2243cd6" => "Horion 1.12",
